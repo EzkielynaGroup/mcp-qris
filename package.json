@@ -1,0 +1,45 @@
+{
+  "name": "mcp-qris",
+  "version": "1.0.0",
+  "description": "Offline MCP server for QRIS (EMVCo MPM): parse, validate CRC, static to dynamic amount, SVG QR. No API key.",
+  "mcpName": "io.github.EzkielynaGroup/mcp-qris",
+  "type": "module",
+  "bin": {
+    "mcp-qris": "mcp-qris.mjs"
+  },
+  "files": [
+    "mcp-qris.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "qris",
+    "emvco",
+    "qr-code",
+    "indonesia",
+    "payment",
+    "crc16",
+    "claude-desktop",
+    "claude-code",
+    "cursor",
+    "opencode"
+  ],
+  "author": "Ezekiel Lieberhart (Ezkielyna)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzkielynaGroup/mcp-qris.git"
+  },
+  "homepage": "https://github.com/EzkielynaGroup/mcp-qris#readme",
+  "bugs": {
+    "url": "https://github.com/EzkielynaGroup/mcp-qris/issues"
+  }
+}

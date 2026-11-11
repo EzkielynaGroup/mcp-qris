@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.EzkielynaGroup/mcp-qris",
+  "title": "QRIS tools (offline)",
+  "description": "Offline QRIS tools: parse, validate CRC, static to dynamic amount, render SVG QR. No API key.",
+  "repository": {
+    "url": "https://github.com/EzkielynaGroup/mcp-qris",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "mcp-qris",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
