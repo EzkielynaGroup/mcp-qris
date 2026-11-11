@@ -10,7 +10,7 @@ Offline MCP server for QRIS: parse, validate CRC, turn static QRIS into dynamic 
 **Owner actions**
 1. Create `EzkielynaGroup/mcp-qris` (public), push `main`.
 2. `npm publish` (name `mcp-qris` was free on npm on 11 Nov 2026; re-check with `npm view mcp-qris`).
-3. Publish `server.json` to the official MCP registry (`mcp-publisher publish`), after npm.
+3. Publish `server.json` to the MCP Registry (registry.modelcontextprotocol.io) (`mcp-publisher publish`), after npm.
 4. Optional: list on awesome-mcp-servers / Smithery under Finance / Payments.
 
 **Before announcing:** the QRIS-specific labels (NMID in 51.02, merchant criteria) come from public provider docs, not the

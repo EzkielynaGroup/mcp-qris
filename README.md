@@ -167,7 +167,7 @@ Contoh: *"Ini teks QRIS statis toko saya: `000201010211...6304ABCD`. Valid tidak
 
 **Batasan**: input berupa teks (bukan foto); nominal Rupiah bulat 1-13 digit; peringatan di atas Rp10.000.000 (batas per transaksi QRIS menurut PADG 24/1/PADG/2022, cek aturan terbaru); QRIS yang sudah dinamis ditolak kecuali `allow_dynamic_input: true`.
 
-**Sumber**: spesifikasi EMVCo Merchant-Presented Mode v1.1 (November 2020) untuk struktur, field, dan CRC; Bank Indonesia (PADG 21/18/PADG/2019 beserta perubahannya, PADG 24/1/PADG/2022) untuk QRIS. Spesifikasi teknis QRIS dari ASPI tidak tersedia untuk publik, jadi label khusus QRIS (GUI `ID.CO.QRIS.WWW`, NMID di sub-ID 02, kriteria UMI/UKE/UME/UBE/URE) diambil dari dokumentasi publik PJSP dan parser open-source: anggap sebagai keterangan, bukan acuan resmi. Semua QRIS di test adalah contoh buatan (merchant fiktif "TOKO CONTOH").
+**Sumber**: spesifikasi EMVCo Merchant-Presented Mode v1.1 (November 2020) untuk struktur, field, dan CRC; Bank Indonesia (PADG 21/18/PADG/2019 beserta perubahannya, PADG 24/1/PADG/2022) untuk QRIS. Spesifikasi teknis QRIS dari ASPI tidak tersedia untuk publik, jadi label khusus QRIS (GUI `ID.CO.QRIS.WWW`, NMID di sub-ID 02, kriteria UMI/UKE/UME/UBE/URE) diambil dari dokumentasi publik PJSP dan parser open-source: anggap sebagai keterangan, bukan acuan baku. Semua QRIS di test adalah contoh buatan (merchant fiktif "TOKO CONTOH").
 
 **Tanya jawab**
 
