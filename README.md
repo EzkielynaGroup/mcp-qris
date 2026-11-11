@@ -1,5 +1,9 @@
 # mcp-qris
 
+<!-- ezk:badges -->
+[![npm](https://img.shields.io/npm/v/mcp-qris?color=c2410c)](https://www.npmjs.com/package/mcp-qris) [![CI](https://github.com/EzkielynaGroup/mcp-qris/actions/workflows/test.yml/badge.svg)](https://github.com/EzkielynaGroup/mcp-qris/actions/workflows/test.yml) [![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.EzkielynaGroup%2Fmcp--qris-1f6feb)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.EzkielynaGroup/mcp-qris) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+<!-- /ezk:badges -->
+
 An offline [MCP](https://modelcontextprotocol.io) server that lets your AI assistant **read, check and prepare QRIS payment codes** (Indonesia's national QR standard, built on EMVCo Merchant-Presented Mode). No API key, no network, no dependencies.
 
 Example: *"Here is my shop's static QRIS text: `000201010211...6304ABCD`. Is it valid, and can you make a dynamic version for Rp25.000 and give me the SVG?"*
@@ -183,3 +187,17 @@ MIT. See [LICENSE](LICENSE). QRIS is a standard of Bank Indonesia and ASPI; EMV 
 ---
 
 Made by [Ezkielyna](https://ezkielyna.store/?utm_source=github&utm_medium=readme&utm_campaign=mcp-qris), an independent AI API gateway for Indonesian developers (pay with QRIS).
+
+<!-- ezk:toolkit -->
+---
+
+### Part of the Ezkielyna developer toolkit
+
+Open-source tools from [Ezkielyna](https://ezkielyna.store/?utm_source=github&utm_medium=readme&utm_campaign=mcp-qris), an independent OpenAI- and Anthropic-compatible AI API gateway (pay with QRIS, USDT or Binance Pay; no credit card).
+
+| No API key needed | With an Ezkielyna key |
+|---|---|
+| [mcp-bmkg](https://github.com/EzkielynaGroup/mcp-bmkg) · [mcp-wilayah-indonesia](https://github.com/EzkielynaGroup/mcp-wilayah-indonesia) · [mcp-hari-libur-indonesia](https://github.com/EzkielynaGroup/mcp-hari-libur-indonesia) · [mcp-rupiah](https://github.com/EzkielynaGroup/mcp-rupiah) · [mcp-qris](https://github.com/EzkielynaGroup/mcp-qris) · [ai-model-status-mcp](https://github.com/EzkielynaGroup/ai-model-status-mcp) | [ezkielyna-mcp](https://github.com/EzkielynaGroup/ezkielyna-mcp) · [ezkielyna-image-mcp](https://github.com/EzkielynaGroup/ezkielyna-image-mcp) · [ezkielyna-audio-mcp](https://github.com/EzkielynaGroup/ezkielyna-audio-mcp) · [n8n-nodes-ezkielyna](https://github.com/EzkielynaGroup/n8n-nodes-ezkielyna) |
+
+More: [all repositories](https://github.com/EzkielynaGroup) · [awesome-mcp-indonesia](https://github.com/EzkielynaGroup/awesome-mcp-indonesia) · [awesome-ai-indonesia](https://github.com/EzkielynaGroup/awesome-ai-indonesia)
+<!-- /ezk:toolkit -->
